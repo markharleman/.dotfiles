@@ -1,0 +1,30 @@
+Host Prive/meterkast
+	HostName 10.42.1.16
+	User pi
+	Port 22
+
+Host Prive/Hellfire
+	HostName 10.42.1.66
+	User mark
+	Port 22
+
+Host Prive/workshop
+	HostName 10.42.1.248
+	User mark
+	Port 22
+
+Host atcmh
+	HostName 192.168.100.77
+	User bprocare
+	Port 22
+
+Host posten-cloud.bprocare.cloud
+	HostName posten-cloud.bprocare.cloud
+	User bprocare
+	Port 22
+
+Host awx
+	HostName 192.168.100.7
+	User bprocare
+	Port 22
+
