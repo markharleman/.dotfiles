@@ -4,12 +4,77 @@ Host Prive/meterkast
 	Port 22
 
 Host Prive/Hellfire
-	HostName 10.42.1.66
+	HostName 10.42.1.131
 	User mark
 	Port 22
 
 Host Prive/workshop
-	HostName 10.42.1.248
+	HostName 10.42.1.244
+	User mark
+	Port 22
+
+Host Prive/Hawkins01
+	HostName 10.42.1.111
+	User mark
+	Port 22
+
+Host Prive/Hawkins02
+	HostName 10.42.1.112
+	User mark
+	Port 22
+
+Host Prive/Hawkins03
+	HostName 10.42.1.113
+	User mark
+	Port 22
+
+Host Prive/Hawkins04
+	HostName 10.42.1.114
+	User mark
+	Port 22
+
+Host Prive/Hawkins05
+	HostName 10.42.1.115
+	User mark
+	Port 22
+
+Host Prive/pve01
+	HostName 10.42.1.101
+	User root
+	Port 22
+
+Host Prive/bitwarden
+	HostName 10.42.1.70
+	User bitwarden
+	Port 22
+
+Host Prive/adguard
+	HostName 10.42.1.5
+	User root
+	Port 22
+
+Host Prive/Byers01
+	HostName 10.42.1.81
+	User mark
+	Port 22
+
+Host Prive/wheeler02
+	HostName 10.42.1.71
+	User root
+	Port 22
+
+Host Prive/df42
+	HostName 10.42.1.150
+	User mark
+	Port 22
+
+Host Prive/sp39
+	HostName 192.168.192.104
+	User mark
+	Port 22
+
+Host Prive/Wireguard
+	HostName 10.42.1.15
 	User mark
 	Port 22
 
@@ -18,13 +83,103 @@ Host atcmh
 	User bprocare
 	Port 22
 
-Host posten-cloud.bprocare.cloud
-	HostName posten-cloud.bprocare.cloud
-	User bprocare
-	Port 22
-
 Host awx
 	HostName 192.168.100.7
 	User bprocare
+	Port 22
+
+Host turing
+	HostName 192.168.103.60
+	User bprocare
+	Port 22
+
+Host atc-losser
+	HostName 10.42.99.32
+	User bprocare
+	Port 22
+
+Host upgrade
+	HostName 192.168.100.45
+	User bprocare
+	Port 22
+
+Host support(ticket)
+	HostName 192.168.100.210
+	User bprocare
+	Port 22
+
+Host Itop
+	HostName 192.168.100.52
+	User bprocare
+	Port 22
+
+Host posten-cloud.bprocare.cloud
+	HostName posten-cloud.bprocare.cloud
+	User mharleman
+	Port 22
+
+Host Triade
+	HostName 149.210.191.207
+	User mharleman
+	Port 22
+
+Host Merwelanden
+	HostName merwelanden.bprocare.cloud
+	User mharleman
+	Port 22
+
+Host zorgbalans
+	HostName zorgbalans.bprocare.cloud
+	User mharleman
+	Port 22
+
+Host Sint
+	HostName sintanna-boxmeer.bprocare.cloud
+	User bprocare
+	Port 22
+
+Host Zabbix
+	HostName zabbix.bprocare.cloud
+	User bprocare
+	Port 41122
+
+Host Openstack
+	HostName 83.96.213.25
+	User mharleman
+	Port 22
+
+Host ldap
+	HostName 93.119.15.28
+	User bprocare
+	Port 22
+
+Host Phrase
+	HostName 192.168.100.205
+	User bprocare
+	Port 22
+
+Host ldap-client
+	HostName 85.10.145.62
+	User bprocare
+	Port 22
+
+Host develop.bprocare.cloud
+	HostName develop.bprocare.cloud
+	User mharleman
+	Port 22
+
+Host WarmThuis
+	HostName warmthuis.bprocare.cloud
+	User bprocare
+	Port 22
+
+Host Neynsel
+	HostName 87.253.148.61
+	User bprocare
+	Port 22
+
+Host openvpn
+	HostName 192.168.100.1
+	User vpn
 	Port 22
 
