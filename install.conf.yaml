@@ -5,8 +5,8 @@
 - clean: ['~']
 
 - link:
-    ~/.*
-
+    ~/.*: .*
+    glob: true
 - create:
     - ~/downloads
     - ~/.vim/undo-history
