@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.*: .*
+    ~/.*: /.*
     glob: true
 - create:
     - ~/downloads
