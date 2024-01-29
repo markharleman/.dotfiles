@@ -7,9 +7,10 @@
 - link:
     ~/.config:
     path: .config
-- create:
-    - ~/downloads
-    - ~/.vim/undo-history
+    create: true
+# - create:
+#     - ~/downloads
+#     - ~/.vim/undo-history
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
