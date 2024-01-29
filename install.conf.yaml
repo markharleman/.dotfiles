@@ -6,7 +6,6 @@
 
 - link:
     ~/:
-    glob: true
     path: /*
 - create:
     - ~/downloads
