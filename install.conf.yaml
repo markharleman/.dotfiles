@@ -6,7 +6,7 @@
 
 - link:
     ~/:
-    path: /*
+    path: /.*
 - create:
     - ~/downloads
     - ~/.vim/undo-history
