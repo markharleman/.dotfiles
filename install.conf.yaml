@@ -1,13 +1,13 @@
 - defaults:
     link:
       relink: true
+      create: true
 
-- clean: ['~']
+- clean: ['~', '~/.config']
 
 - link:
     ~/.config:
-    path: .config
-    create: true
+
 # - create:
 #     - ~/downloads
 #     - ~/.vim/undo-history
