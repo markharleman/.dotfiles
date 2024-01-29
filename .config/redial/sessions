@@ -84,7 +84,7 @@ Host atcmh
 	Port 22
 
 Host awx
-	HostName 192.168.100.7
+	HostName 192.168.100.110
 	User bprocare
 	Port 22
 
@@ -170,11 +170,11 @@ Host develop.bprocare.cloud
 
 Host WarmThuis
 	HostName warmthuis.bprocare.cloud
-	User bprocare
+	User mharleman
 	Port 22
 
 Host Neynsel
-	HostName 87.253.148.61
+	HostName vanneynsel.bprocare.cloud
 	User bprocare
 	Port 22
 
